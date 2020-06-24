@@ -12,24 +12,45 @@ html, body{
     6. border radius */
 
 /* عند الحاجه w3schools قم بالاستعانه بموقع  */
+.flex{
+display: flex;
+height: 100%;
+}
 
 .sidebar{
     /* pxالعرض هنا يجب ان يكون 120 */
+    background-color: aqua;
+    height: 100%;
+    border-radius: 10px;
+    margin: 5px;
 }
 
 .header{
     /* pxالطول هنا يجب ان يكون 80 */
+    background-color: aquamarine;
+    height: 20%;
+    border-radius: 10px;
+    margin: 5px;
 }
 
 .main{
-
+background-color: cadetblue;
+height: 80%;
+border-radius: 10px;
+margin: 5px;
 }
 
 a{
     color: darkgray;
+    text-decoration: none;
     /* اجعل شكل اللنك من غير خط اسفل الكلام */
 }
-
+a:hover{
+    color: white;
+}
+p{
+    text-align: center;
+}
 /* !بــونص */
 /* (hover) اجعل اللنك يتغير لونه الى الابيض عند التأشير عليه */
 /* (p) غير محاذاة الفقرات لتصبح بالوسط */
@@ -39,10 +60,12 @@ a{
 h1{
     margin: 0;
     margin-right: 5px;
+    text-align: center;
 }
 
 h2{
     margin: 0;
     margin-left: 5px;
+    text-align: center;
 }
 
